@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Short film ideas</title>
+        <link rel="stylesheet" href="Shortfilmideas.css" />
+    </head>
+    <body>
+        
+        <div class="container">
+            <div class="holder">
+                <h1>Short film ideas:</h1>
+                <div id="bracket">
+                    <div class="item item-1">
+                        <label for="idGenre">Genre
+                        <select id="idGenre">
+                            <option value="">(Select only one)</option>
+                            <option value="1">Drama</option>
+                            <option value="2">Comedy</option>
+                            <option value="3">Thriller</option>
+                            <option value="4">Action</option>
+                            <option value="5">Horror</option>
+                            <option value="6">Western</option>
+                            <option value="7">Experimental</option>
+                            <option value="8">Documentary</option>
+                            
+                        </select>
+                    </label>
+                        
+                    </div>
+                    <div class="item item-2">
+                        <label for="idTime">Time   
+                            <select id="idTime">
+                                <option value="">(Select only one)</option>
+                                <option value="11">1-5min</option>
+                                <option value="22">5-9min</option>
+                                <option value="33">9-14min</option>
+                                <option value="44">14-21min</option>
+                                <option value="55">21+min</option>                                               
+                            </select>
+                        </label>
+                    </div>
+                    
+                    <div class="item item-3">Title
+                        <input type="text" id="titleText" placeholder="Type the title...">
+                    </div>
+                    <div class="item item-5">Premise
+                        <textarea rows="3" cols="35" id="premise" name="premiseText" placeholder="Type your premise..."></textarea>
+                    </div>
+                </div>
+                <button id="myButton">Submit</button>
+                <ul id="ideas">
+                    
+                   
+                </ul>
+            </div>      
+        </div>
+        
+        <script src="Shortfilmideas.js"></script>
+    </body>
+</html>
